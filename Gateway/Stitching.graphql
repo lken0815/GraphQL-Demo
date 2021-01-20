@@ -1,0 +1,8 @@
+extend type Query {
+    my: User! @delegate(schema: "users", path: "user(userId: \"Test-User1\")")
+}
+
+extend type User {
+    books: [Book!] @delegate(schema: "books", path: "books(bookIds: $fields:ownedBookIds)")
+    bookNumbers: [Book!] @delegate(schema: "books", path: "booksByNumber(numbers: $fields:testNumbers)")
+}

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{C1073075-C2E1-454E-B08B-9745951C1EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookService", "BookService\BookService.csproj", "{DBCE3706-73E1-45F8-8234-E6E2592658A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{6C83534C-BD38-4D84-84C9-CDF8C39A4FB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1073075-C2E1-454E-B08B-9745951C1EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1073075-C2E1-454E-B08B-9745951C1EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1073075-C2E1-454E-B08B-9745951C1EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1073075-C2E1-454E-B08B-9745951C1EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCE3706-73E1-45F8-8234-E6E2592658A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCE3706-73E1-45F8-8234-E6E2592658A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCE3706-73E1-45F8-8234-E6E2592658A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCE3706-73E1-45F8-8234-E6E2592658A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C83534C-BD38-4D84-84C9-CDF8C39A4FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C83534C-BD38-4D84-84C9-CDF8C39A4FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C83534C-BD38-4D84-84C9-CDF8C39A4FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C83534C-BD38-4D84-84C9-CDF8C39A4FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
